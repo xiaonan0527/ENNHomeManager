@@ -1,0 +1,16 @@
+source 'https://github.com/CocoaPods/Specs'
+
+platform:ios,'8.0'
+
+pod 'AFNetworking'
+pod 'pop'
+pod 'ZXingObjC'
+pod 'Charts', '~> 2.1.6'
+pod 'MQTTKit', :git => 'https://github.com/mobile-web-messaging/MQTTKit.git'
+pod 'MBProgressHUD'
+pod 'Masonry'
+pod 'RESideMenu'
+pod 'Reachability'
+pod 'SSKeychain'
+
+use_frameworks!
