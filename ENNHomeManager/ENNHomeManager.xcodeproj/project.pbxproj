@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		267E20D46030131E01F04F5F /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 134FC3CD69382823BB8EB368 /* Pods.framework */; };
+		2E0B632A1C8AA485005BEAD1 /* LeftTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0B63291C8AA485005BEAD1 /* LeftTableViewController.m */; };
 		2ECEFCC71C8684B400160380 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECEFCC61C8684B400160380 /* main.m */; };
 		2ECEFCCA1C8684B400160380 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECEFCC91C8684B400160380 /* AppDelegate.m */; };
 		2ECEFCCD1C8684B400160380 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2ECEFCCC1C8684B400160380 /* ViewController.m */; };
@@ -39,6 +40,8 @@
 /* Begin PBXFileReference section */
 		134FC3CD69382823BB8EB368 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B472F25CB81C3B79F88AAD1 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		2E0B63281C8AA485005BEAD1 /* LeftTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftTableViewController.h; sourceTree = "<group>"; };
+		2E0B63291C8AA485005BEAD1 /* LeftTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftTableViewController.m; sourceTree = "<group>"; };
 		2ECEFCC21C8684B400160380 /* ENNHomeManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ENNHomeManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2ECEFCC61C8684B400160380 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2ECEFCC81C8684B400160380 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -174,6 +177,8 @@
 				2ECEFCCE1C8684B400160380 /* Main.storyboard */,
 				2ECEFCCB1C8684B400160380 /* ViewController.h */,
 				2ECEFCCC1C8684B400160380 /* ViewController.m */,
+				2E0B63281C8AA485005BEAD1 /* LeftTableViewController.h */,
+				2E0B63291C8AA485005BEAD1 /* LeftTableViewController.m */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -413,6 +418,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2ECEFCD31C8684B400160380 /* ENNHomeManager.xcdatamodeld in Sources */,
+				2E0B632A1C8AA485005BEAD1 /* LeftTableViewController.m in Sources */,
 				2ECEFCCD1C8684B400160380 /* ViewController.m in Sources */,
 				2ECEFCCA1C8684B400160380 /* AppDelegate.m in Sources */,
 				2ECEFCC71C8684B400160380 /* main.m in Sources */,
