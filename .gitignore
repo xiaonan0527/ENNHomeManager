@@ -1,6 +1,11 @@
-# Xcode
+## OSX
 .DS_Store
+
+## Build generated
 build/
+DerivedData/
+
+## Various settings
 *.pbxuser
 !default.pbxuser
 *.mode1v3
@@ -9,8 +14,17 @@ build/
 !default.mode2v3
 *.perspectivev3
 !default.perspectivev3
+xcuserdata/
 *.xcworkspace
 !default.xcworkspace
-xcuserdata
-profile
+
+## Other
 *.moved-aside
+*.xcuserstate
+
+# Obj-C/Swift specific
+*.hmap
+*.ipa
+
+# CocoaPods
+ENNHomeManager/Pods/
